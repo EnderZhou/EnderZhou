@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
 <title>{{ page.title }}</title>
 <style>
-
 a,{cursor:pointer;}
 a,a:hover{text-decoration:none;}
 
@@ -73,6 +73,30 @@ a,a:hover{text-decoration:none;}
     color:#999;
     text-decoration:underline;
 }
+
+/*  响应式  */
+@media screen and(max-width: 1024px) {
+    .c-nav .c-top,.c-mid .c-main,.c-footer .c-foot{
+    width: auto;
+    padding-left: 6px;
+    padding-right: 6px;
+    }
+}
+/*@media screen and(min-width: 320px) and (max-width: 760px){
+    .c-top,.c-main,.c-foot{
+    width: auto;
+    padding-left: 6px;
+    padding-right: 6px;
+    }
+}
+@media screen and(min-width: 769px) and (max-width: 1000px) {
+    .c-top,.c-main,.c-foot{
+    width: auto;
+    padding-left: 6px;
+    padding-right: 6px;
+    }
+}*/
+/*  响应式  */
 
 </style>
 </head>
